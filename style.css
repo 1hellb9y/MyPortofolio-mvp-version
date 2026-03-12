@@ -365,7 +365,7 @@ color:white;
 padding:12px 22px;
 border-radius:6px;
 border:none;
-
+text-decoration: none;
 cursor:pointer;
 
 transition:all 0.25s ease;
@@ -389,6 +389,7 @@ transform:translateY(-2px);
 .btn-secondary{
 
 background:none;
+text-decoration: none;
 border:1px solid #777;
 
 padding:12px 22px;
