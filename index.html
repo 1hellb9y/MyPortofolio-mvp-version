@@ -2,364 +2,697 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadji | Backend & Systems Developer</title>
 
-<title>Nadji Portfolio</title>
+    <meta
+        name="description"
+        content="Nadji — Backend developer, low-level systems programmer, and algorithmic trading developer."
+    >
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 </head>
-
 
 <body>
 
     <div class="cursor-light"></div>
 
-<!-- NAVBAR -->
-<nav class="navbar">
 
-<div class="nav-container">
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-<div class="logo">
-<span class="prompt">N></span>NADJI
-</div>
+    <nav class="navbar">
 
-<div class="hamburger" id="hamburger">
-<span></span>
-<span></span>
-<span></span>
-</div>
+        <div class="nav-container">
 
-<ul class="nav-links" id="navLinks">
-
-<li><a href="#Home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#Projects">Projects</a></li>
-<li><a href="#Contact">Contact</a></li>
-
-</ul>
-
-</div>
-
-</nav>
-
-
-<!-- HERO SECTION -->
-
-<section class="hero-section" id="Home">
-
-<div class="hero-container">
-
-
-<!-- LEFT CONTENT -->
-
-<div class="hero-left">
-
-<span class="status">DEVELOPER MODE</span>
-
-<h1 class="title" data-text="NADJI">NADJI</h1>
-
-<p class="subtitle">
-Backend Developer & Algorithmic Trader &
-Low-Level Systems Programmer
-</p>
-
-
-<ul class="hero-list">
-
-<li>> Backend Developer</li>
-<li>> MQL5 Robot Developer</li>
-<li>> Member of V12 Trading Team</li>
-
-</ul>
-
-
-<div class="hero-buttons">
-
-<a class="btn-primary" href="#Projects">
-VIEW PROJECTS
-</a>
-
-<a class="btn-secondary" href="#Contact">
-CONTACT
-</a>
-
-</div>
-
-</div>
-
-
-
-<!-- RIGHT CONTENT -->
-
-<div class="hero-right">
-
-<div class="terminal">
-
-<div class="terminal-header">
-
-<div class="dot red"></div>
-<div class="dot yellow"></div>
-<div class="dot green"></div>
-
-</div>
-
-<div class="terminal-body">
-
-<p>$ ./nadji_profile.sh</p>
-
-<p class="info">[INFO] > Low-Level Systems Programming</p>
-<p class="info">[INFO] > MQL5 Trading Robots</p>
-<p class="info">[INFO] > Backend Infrastructure</p>
-
-<p class="ready">[READY] Portfolio loaded</p>
-
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-<section class="about-section reveal" id="about">
-
-<div class="about-container">
-
-<div class="about-left">
-
-<h2 class="section-title">About Me</h2>
-
-<p class="about-text">
-I'm Nadji, a backend developer focused on low-level programming,
-algorithmic trading systems, and high-performance software.
-</p>
-
-<p class="about-text">
-I build backend applications, trading algorithms, and low-level
-programs using C, C++, Assembly, and MQL5.
-</p>
-
-<p class="about-text">
-I am also a member of the V12 team where we design automated
-trading systems for financial markets.
-</p>
-
-</div>
-
-
-<div class="about-right">
-
-<div class="skills-grid">
-
-<div class="skill-card">Backend Development</div>
-<div class="skill-card">JavaScript</div>
-<div class="skill-card">Low-Level Programming</div>
-<div class="skill-card">Assembly</div>
-<div class="skill-card">C / C++</div>
-<div class="skill-card">MQL5 Robots</div>
-<div class="skill-card">Algorithmic Trading</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="about-stats">
-
-<div class="stat">
-<h3>3+</h3>
-<p>Years Programming</p>
-</div>
-
-<div class="stat">
-<h3>10+</h3>
-<p>Projects Built</p>
-</div>
-
-<div class="stat">
-<h3>4+</h3>
-<p>Trading Systems Developed</p>
-</div>
-
-</div>
-
-</section>
-
-
-<section class="projects-section reveal" id="Projects">
-
-<div class="projects-container">
-
-<h2 class="section-title">Projects</h2>
-
-<div class="projects-grid">
-
-    <!-- N-SHELL -->
-    <div class="project-card reveal">
-
-        <h3>N-Shell</h3>
-
-        <p>
-            A minimal Unix shell written in C to demonstrate my understanding
-            of low-level programming and Linux operating system internals.
-            Implements process execution, pipes, I/O redirection, built-in
-            commands, and signal handling.
-        </p>
-
-        <span class="tech">
-            C • Linux • POSIX • Systems Programming
-        </span>
-
-        <div class="project-links">
-
-            <a
-                href="https://github.com/1hellb9y/N_SHELL/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="project-link"
-            >
-                VIEW SOURCE →
+            <a href="#home" class="logo">
+                <span class="prompt">N&gt;</span>NADJI
             </a>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
 
         </div>
 
-    </div>
+    </nav>
 
 
-<div class="project-card reveal">
+    <main>
 
-    <h3>SentinelGold</h3>
+        <!-- =========================
+             HERO
+        ========================== -->
 
-    <p>
-        Automated XAUUSD trading system built for MetaTrader 5 using MQL5.
-        Designed around fast scalping execution, structured risk management,
-        defined stop-loss protection, and automated trade management.
-    </p>
+        <section class="hero-section" id="home">
 
-    <span class="tech">
-        MQL5 • MetaTrader 5 • Algorithmic Trading
-    </span>
+            <div class="hero-container">
 
-    <div class="project-links">
+                <!-- LEFT -->
 
-        <a
-            href="https://www.mql5.com/en/market/product/185772"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link"
+                <div class="hero-left">
+
+                    <span class="status">
+                        DEVELOPER MODE
+                    </span>
+
+                    <h1
+                        class="title"
+                        data-text="NADJI"
+                    >
+                        NADJI
+                    </h1>
+
+                    <p class="subtitle">
+                        Backend Developer
+                        <span>/</span>
+                        Algorithmic Trader
+                        <span>/</span>
+                        Low-Level Systems Programmer
+                    </p>
+
+
+                    <ul class="hero-list">
+
+                        <li>
+                            <span>&gt;</span>
+                            Backend Developer
+                        </li>
+
+                        <li>
+                            <span>&gt;</span>
+                            Low-Level Systems Programmer
+                        </li>
+
+                        <li>
+                            <span>&gt;</span>
+                            MQL5 Trading Robot Developer
+                        </li>
+
+                        <li>
+                            <span>&gt;</span>
+                            Member of V12 Trading Team
+                        </li>
+
+                    </ul>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            class="btn-primary"
+                            href="#projects"
+                        >
+                            VIEW PROJECTS
+                        </a>
+
+                        <a
+                            class="btn-secondary"
+                            href="#contact"
+                        >
+                            CONTACT
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT -->
+
+                <div class="hero-right">
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-dots">
+                                <div class="dot red"></div>
+                                <div class="dot yellow"></div>
+                                <div class="dot green"></div>
+                            </div>
+
+                            <span class="terminal-name">
+                                nadji@linux:~
+                            </span>
+
+                        </div>
+
+
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="terminal-prompt">$</span>
+                                ./nadji_profile.sh
+                            </p>
+
+                            <p class="info">
+                                [INFO] &gt; Low-Level Systems Programming
+                            </p>
+
+                            <p class="info">
+                                [INFO] &gt; Backend Infrastructure
+                            </p>
+
+                            <p class="info">
+                                [INFO] &gt; MQL5 Trading Robots
+                            </p>
+
+                            <p class="info">
+                                [INFO] &gt; Linux / POSIX
+                            </p>
+
+                            <p class="ready">
+                                [READY] Portfolio loaded
+                            </p>
+
+                            <p>
+                                <span class="terminal-prompt">$</span>
+                                <span class="terminal-cursor"></span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section
+            class="about-section reveal"
+            id="about"
         >
-            VIEW PRODUCT →
-        </a>
 
-    </div>
+            <div class="about-container">
 
-</div>
+                <div class="about-left">
 
+                    <span class="section-tag">
+                        01 / ABOUT
+                    </span>
 
-    <!-- BACKEND -->
-    <div class="project-card reveal">
+                    <h2 class="section-title">
+                        About Me
+                    </h2>
 
-        <h3>Backend API System</h3>
+                    <p class="about-text">
+                        I'm Nadji, a backend developer focused on
+                        low-level programming, algorithmic trading systems,
+                        and high-performance software.
+                    </p>
 
-        <p>
-            REST backend system built for handling trading data,
-            user authentication and automation tools.
-        </p>
+                    <p class="about-text">
+                        I build backend applications, trading algorithms,
+                        and systems-level programs using technologies such as
+                        C, C++, Assembly, JavaScript, and MQL5.
+                    </p>
 
-        <span class="tech">
-            Backend • APIs
-        </span>
+                    <p class="about-text">
+                        I am also a member of the V12 trading team,
+                        where we design and develop automated trading
+                        systems for financial markets.
+                    </p>
 
-    </div>
-
-
-    <!-- ASSEMBLY -->
-    <div class="project-card reveal">
-
-        <h3>Assembly Programs</h3>
-
-        <p>
-            Low-level programs written in Assembly exploring
-            CPU architecture and system behaviour.
-        </p>
-
-        <span class="tech">
-            Assembly • Low Level
-        </span>
-
-    </div>
+                </div>
 
 
-    <!-- C/C++ -->
-    <div class="project-card reveal">
+                <div class="about-right">
 
-        <h3>C/C++ Systems</h3>
+                    <div class="skills-grid">
 
-        <p>
-            Performance-oriented programs written in C and C++
-            focused on memory management and system control.
-        </p>
+                        <div class="skill-card">
+                            Backend Development
+                        </div>
 
-        <span class="tech">
-            C • C++
-        </span>
+                        <div class="skill-card">
+                            JavaScript
+                        </div>
 
-    </div>
+                        <div class="skill-card">
+                            Low-Level Programming
+                        </div>
 
-</div>
+                        <div class="skill-card">
+                            Linux / POSIX
+                        </div>
 
-</div>
+                        <div class="skill-card">
+                            Assembly
+                        </div>
 
-</section>
+                        <div class="skill-card">
+                            C / C++
+                        </div>
 
-<section class="contact-section reveal" id="Contact">
+                        <div class="skill-card">
+                            MQL5 Robots
+                        </div>
 
-<div class="contact-container">
+                        <div class="skill-card">
+                            Algorithmic Trading
+                        </div>
 
-<h2 class="section-title">Let's Work Together</h2>
+                    </div>
 
-<p class="contact-text">
-If you're interested in working together, building trading systems,
-or developing software projects, feel free to contact me.
-</p>
+                </div>
 
-<div class="contact-links">
+            </div>
 
-<a href="https://github.com/1hellb9y" target="_blank" class="contact-card">
-GitHub
-</a>
 
-<a href="mailto:brahimnaji0192@email.com" target="_blank" class="contact-card">
-Email
-</a>
+            <div class="about-stats">
 
-<a href="https://t.me/LE_N213" target="_blank" class="contact-card">
-Telegram
-</a>
+                <div class="stat">
 
-</div>
+                    <h3>3+</h3>
 
-</div>
+                    <p>
+                        Years Programming
+                    </p>
 
-</section>
+                </div>
 
-<footer class="footer">
 
-<p>© 2026 Nadji — Portfolio</p>
+                <div class="stat">
 
-</footer>
+                    <h3>10+</h3>
 
-<script src="script.js"></script>
+                    <p>
+                        Projects Built
+                    </p>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <h3>4+</h3>
+
+                    <p>
+                        Trading Systems Developed
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section
+            class="projects-section reveal"
+            id="projects"
+        >
+
+            <div class="projects-container">
+
+                <span class="section-tag">
+                    02 / PROJECTS
+                </span>
+
+                <h2 class="section-title">
+                    Projects
+                </h2>
+
+                <p class="section-description">
+                    Selected projects covering systems programming,
+                    backend development, and algorithmic trading.
+                </p>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- N-SHELL -->
+
+                    <article class="project-card featured-project">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                            <span class="project-status">
+                                SYSTEMS
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            N-Shell
+                        </h3>
+
+                        <p>
+                            A minimal Unix shell written in C to demonstrate
+                            my understanding of low-level programming and
+                            Linux operating system internals.
+                        </p>
+
+                        <p>
+                            Implements process execution, Unix pipes,
+                            I/O redirection, built-in commands,
+                            file descriptor manipulation, and SIGINT
+                            signal handling.
+                        </p>
+
+                        <span class="tech">
+                            C • Linux • POSIX • Systems Programming
+                        </span>
+
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://github.com/1hellb9y/N_SHELL/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                VIEW SOURCE
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SENTINEL GOLD -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                            <span class="project-status">
+                                TRADING
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            SentinelGold
+                        </h3>
+
+                        <p>
+                            Automated XAUUSD trading system developed
+                            for MetaTrader 5 using MQL5.
+                        </p>
+
+                        <p>
+                            Built around automated trade execution,
+                            structured risk management, stop-loss protection,
+                            and trade management logic.
+                        </p>
+
+                        <span class="tech">
+                            MQL5 • MetaTrader 5 • Algorithmic Trading
+                        </span>
+
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://www.mql5.com/en/market/product/185772?source=Site+Profile"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                VIEW PRODUCT
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- BACKEND -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                            <span class="project-status">
+                                BACKEND
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Backend API System
+                        </h3>
+
+                        <p>
+                            REST backend system built for handling
+                            trading data, user authentication,
+                            and automation tools.
+                        </p>
+
+                        <span class="tech">
+                            Backend • REST APIs
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- ASSEMBLY -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                04
+                            </span>
+
+                            <span class="project-status">
+                                LOW LEVEL
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Assembly Programs
+                        </h3>
+
+                        <p>
+                            Low-level programs written in Assembly
+                            exploring CPU architecture, registers,
+                            memory, instructions, and system behaviour.
+                        </p>
+
+                        <span class="tech">
+                            Assembly • CPU Architecture • Low Level
+                        </span>
+
+                    </article>
+
+
+
+                    <!-- C/C++ -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                05
+                            </span>
+
+                            <span class="project-status">
+                                SYSTEMS
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            C / C++ Systems
+                        </h3>
+
+                        <p>
+                            Performance-oriented programs written
+                            in C and C++ with a focus on memory,
+                            operating-system concepts, and direct
+                            system control.
+                        </p>
+
+                        <span class="tech">
+                            C • C++ • Systems Programming
+                        </span>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section
+            class="contact-section reveal"
+            id="contact"
+        >
+
+            <div class="contact-container">
+
+                <span class="section-tag">
+                    03 / CONTACT
+                </span>
+
+                <h2 class="section-title">
+                    Let's Work Together
+                </h2>
+
+                <p class="contact-text">
+                    If you're interested in working together,
+                    building trading systems, backend infrastructure,
+                    or low-level software, feel free to contact me.
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a
+                        href="https://github.com/1hellb9y"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card"
+                    >
+                        <span class="contact-name">
+                            GitHub
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+                    </a>
+
+
+                    <a
+                        href="mailto:brahimnaji0192@email.com"
+                        class="contact-card"
+                    >
+                        <span class="contact-name">
+                            Email
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+                    </a>
+
+
+                    <a
+                        href="https://t.me/LE_N213"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card"
+                    >
+                        <span class="contact-name">
+                            Telegram
+                        </span>
+
+                        <span>
+                            →
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <p>
+                © 2026 Nadji
+            </p>
+
+            <p class="footer-status">
+                <span></span>
+                SYSTEM ONLINE
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
