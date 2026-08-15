@@ -900,3 +900,25 @@ opacity:1;
 }
 
 }
+.project-links {
+    margin-top: 20px;
+}
+
+.project-link {
+    display: inline-block;
+
+    color: #00ff9d;
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.project-link:hover {
+    transform: translateX(5px);
+    text-shadow: 0 0 8px rgba(0, 255, 157, 0.6);
+}
